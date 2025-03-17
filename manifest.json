@@ -6,7 +6,7 @@
     }
   },
   "name": "WhatsApp Sidebar",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Open WhatsApp Web in a Firefox sidebar",
   "icons": {
     "48": "src/icons/whatsapp-48.png",
