@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <section class="p-3">
+        <h2>Options</h2>
+    </section>
+    
+    <section class="p-3">
+        <form>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label col-form-label-lg" for="hotkey">Toggle Open</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control form-control-lg col-8" id="hotkey" />
+                    <small class="form-text text-muted">Default Shift + Alt + W</small>
+                </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button id="btnUpdateHotkey" class="btn btn-success">Update</button>
+                <button id="btnResetHotkey" class="btn btn-warning">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+    <script src="hotkey-handler.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

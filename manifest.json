@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "WhatsApp Sidebar",
+  "version": "1.0",
+  "description": "Open WhatsApp Web in a Firefox sidebar",
+  "icons": {
+    "48": "src/icons/whatsapp-48.png",
+    "96": "src/icons/whatsapp-96.png"
+  },
+  "background": {
+    "scripts": ["src/background.js"]
+  },
+  "sidebar_action": {
+    "default_title": "WhatsApp",
+    "default_panel": "src/ext_sidebar/sidebar.html",
+    "default_icon": {
+      "16": "src/icons/whatsapp-16.png",
+      "32": "src/icons/whatsapp-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "src/ext_options/options.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "https://web.whatsapp.com/"
+  ],
+  "commands": {
+    "_toggleSidebar": {
+      "suggested_key": {
+        "default": "Alt+Shift+W"
+      },
+      "description": "Toggle WhatsApp sidebar."
+    }
+  }
+}
