@@ -1,11 +1,18 @@
 {
   "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{e671ea55-fa3c-44a9-a19d-f123182e8300}"
+    }
+  },
   "name": "WhatsApp Sidebar",
   "version": "1.0",
   "description": "Open WhatsApp Web in a Firefox sidebar",
   "icons": {
     "48": "src/icons/whatsapp-48.png",
-    "96": "src/icons/whatsapp-96.png"
+    "96": "src/icons/whatsapp-96.png",
+    "128": "src/icons/whatsapp-128.png",
+    "256": "src/icons/whatsapp-256.png"
   },
   "background": {
     "scripts": ["src/background.js"]

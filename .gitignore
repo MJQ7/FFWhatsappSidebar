@@ -1,2 +1,9 @@
 web-ext-artifacts
 web-ext-artifacts/
+.amo-upload-uuid
+.web-extension-id
+**/Thumbs.db
+**/.DS_Store
+**/.vscode
+**/.vscode/
+**/.vscode/*

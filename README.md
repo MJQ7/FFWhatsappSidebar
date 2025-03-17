@@ -36,3 +36,4 @@ Once installed:
 ## Note
 - This extension requires Firefox 57 or later
 
+
